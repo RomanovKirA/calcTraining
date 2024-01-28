@@ -1,0 +1,64 @@
+body {
+  background-color: thistle;
+}
+
+.d-flex {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: none;
+  width: 20%;
+  height: 50px;
+  background-color: pink;
+}
+
+.btn:active {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.btn--plus:active {
+  color: #dadd98;
+  border: 1px solid #dadd98;
+}
+
+.btn--minus:active {
+  color: #de3163;
+  border: 1px solid #de3163;
+}
+
+.btn--divide:active {
+  color: #007fff;
+  border: 1px solid #007fff;
+}
+
+.btn--multi:active {
+  color: #e6e6fa;
+  border: 1px solid #e6e6fa;
+}
+
+.btn--submit:active {
+  font-size: 20px;
+  color: #4f7942;
+  border: 1px solid #4f7942;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  background-color: pink;
+  border: none;
+  height: 50px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #de3163;
+}
