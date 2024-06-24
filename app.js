@@ -40,4 +40,8 @@ submitBtn.onclick = function () {
     newResult.innerHTML = ` ${input1.value} ${action} ${input2.value} = ${result}`;
     newResult.className = `new-result`;
     resultElement.prepend(newResult);
+    input1.value = "";
+    input2.value = "";
 };
+
+
